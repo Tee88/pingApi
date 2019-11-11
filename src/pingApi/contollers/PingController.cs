@@ -13,7 +13,7 @@ namespace pingApi.contollers
     {
         [HttpGet]
         public string Ping() {
-            return "pang";
+            return "pong";
 
         }
     }
