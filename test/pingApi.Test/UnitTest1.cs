@@ -12,7 +12,7 @@ namespace pingApi.Test
         public void GetReturnsPong()
         {
             var returnValue = myContorller.Ping();
-            Assert.Equal("pong",returnValue.ToString());
+            Assert.Equal("ping",returnValue.ToString());
         }
     }
 }
